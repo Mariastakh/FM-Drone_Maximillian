@@ -22,7 +22,7 @@ void play(double *output) {
     // So, the sinewave frequency goes between -50 and 50 ( what does a negative number in the frequency argument mean?)
     double mod = s3.sinewave(50+(saw*phasor));
 
-    // if we listen to s_4 it sounds like a tone going up in point, then abruptly going down and climbing up again
+    // if we listen to s_4 it sounds like a tone going up in pitch, then abruptly going down and climbing up again
     // How fast the tone climbs is defined by the saw-wave. We could modulate this value with another phasor to make
     // the 'acceleration' time change over time.
     
